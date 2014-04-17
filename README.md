@@ -1,4 +1,4 @@
-NodeJS remote client for Samsung SmartTV
+NodeJS remote for Samsung SmartTV
 =======
 
 Module for integration of Samsung SmartTV with your NodeJS application. Tested with Samsung D6000 TV.
