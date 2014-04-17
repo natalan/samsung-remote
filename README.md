@@ -9,7 +9,15 @@ Usage
 ```javascript
 var SamsungRemote = require('samsung-remote');
 var remote = new SamsungRemote({
-    ip: '192.168.1.13' // IP address of your Samsung Smart TV
+    ip: '192.168.1.13' // required: IP address of your Samsung Smart TV
+});
+
+remote.send('KEY_VOLUP', function callback(err) {
+    if (err) {
+        throw new Error(err);
+    } else {
+        // command has been successfully transmitted to your tv
+    }
 });
 ```
 
