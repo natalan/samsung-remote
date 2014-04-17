@@ -23,7 +23,7 @@ remote.send('KEY_VOLUP', function callback(err) {
 
 Remote Keys
 -----
-`
+```javascript
 KEY_MENU
 KEY_UP
 KEY_DOWN
@@ -265,7 +265,7 @@ KEY_EXT38
 KEY_EXT39
 KEY_EXT40
 KEY_EXT41
-`
+```
 
 License
 -----
