@@ -21,6 +21,16 @@ remote.send('KEY_VOLUP', function callback(err) {
         // command has been successfully transmitted to your tv
     }
 });
+
+// check if TV is alive (ping)
+remote.isAlive(function(err) {
+    if (err) {
+        throw new Error('TV is offline');
+    } else {
+        console.log('TV is ALIVE!');
+    }
+});
+
 ```
 
 Remote Keys
