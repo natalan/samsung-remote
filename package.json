@@ -1,6 +1,6 @@
 {
   "name": "samsung-remote",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Remote client for Samsung SmartTV",
   "main": "index.js",
   "author": {
@@ -13,10 +13,7 @@
     "smarttv",
     "remote"
   ],
-  "dependencies": {
-    "net-ping": "^1.1.10",
-    "pingwrap": "0.0.1"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/natalan/samsung-remote.git"
