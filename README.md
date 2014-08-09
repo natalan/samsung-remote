@@ -5,6 +5,10 @@ Module for integration of Samsung SmartTV with your NodeJS application. Tested w
 
 Inspired by this topic [http://forum.samygo.tv/viewtopic.php?f=12&t=1792](http://forum.samygo.tv/viewtopic.php?f=12&t=1792)
 
+Installation
+-----
+npm install samsung-remote --save
+
 Usage
 -----
 
