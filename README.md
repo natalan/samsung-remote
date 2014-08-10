@@ -7,7 +7,10 @@ Inspired by this topic [http://forum.samygo.tv/viewtopic.php?f=12&t=1792](http:/
 
 Installation
 -----
+
+```javascript
 npm install samsung-remote --save
+```
 
 Usage
 -----
