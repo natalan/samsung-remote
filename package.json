@@ -13,7 +13,9 @@
     "smarttv",
     "remote"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "node-upnp-ssdp": "^0.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/natalan/samsung-remote.git"
@@ -29,7 +31,8 @@
       "name": "Andrei Zharov",
       "email": "belmass@gmail.com",
       "url": "http://www.o2v.net/"
-    }, {
+    },
+    {
       "name": "Mathieu Débit",
       "url": "https://github.com/MathieuDebit"
     }
