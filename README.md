@@ -18,7 +18,8 @@ Usage
 ```javascript
 var SamsungRemote = require('samsung-remote');
 var remote = new SamsungRemote({
-    ip: '192.168.1.13' // required: IP address of your Samsung Smart TV
+    ip: '192.168.1.13', // required: IP address of your Samsung Smart TV
+    remoteName: 'NodeJS Samsung Remote' // required: Name of the remote (appears on the TV when prompted for permission)
 });
 
 remote.send('KEY_VOLUP', function callback(err) {
