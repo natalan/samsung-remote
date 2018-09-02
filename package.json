@@ -43,6 +43,10 @@
     {
       "name": "Mathieu Débit",
       "url": "https://github.com/MathieuDebit"
+    },
+    {
+      "name": "Grayson Martin",
+      "url": "https://github.com/GraysonMartin"
     }
   ],
   "devDependencies": {
