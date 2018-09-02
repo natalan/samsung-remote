@@ -8,16 +8,22 @@
     "email": "belmass@gmail.com",
     "url": "http://www.o2v.net/"
   },
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "lint": "eslint ./ --quiet",
-    "test": "npm run lint"
+    "jest": "jest",
+    "test": "npm run lint && npm run jest"
   },
   "keywords": [
     "samsung",
     "smarttv",
     "remote"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "is-ip": "2.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/natalan/samsung-remote.git"
@@ -44,6 +50,8 @@
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-plugin-react": "7.11.1",
+    "jest": "23.5.0",
+    "jest-cli": "23.5.0"
   }
 }

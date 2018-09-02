@@ -3,7 +3,8 @@ module.exports = {
         "airbnb-base"
     ],
     "env": {
-        "node": true
+        "node": true,
+        "jest": true
     },
     "rules": {
         "no-trailing-spaces": ["error", {
