@@ -8,4 +8,4 @@
  *  https://github.com/natalan/samsung-remote
  */
 
-module.exports = require('./lib/samsung-remote.js');
+module.exports = require("./lib/samsung-remote.js");
