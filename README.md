@@ -44,7 +44,7 @@ remote.isAlive((err) => {
 
 Remote Keys
 -----
-```javascript
+```
 KEY_MENU
 KEY_UP
 KEY_DOWN
