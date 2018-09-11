@@ -1,5 +1,6 @@
 NodeJS remote for Samsung SmartTV
 =======
+[![Build Status](https://travis-ci.org/natalan/samsung-remote.svg?branch=master)](https://travis-ci.org/natalan/samsung-remote)
 
 Module for integration of Samsung SmartTV with your NodeJS application. Tested with Samsung D6000 TV.
 
@@ -7,8 +8,9 @@ Inspired by this topic [http://forum.samygo.tv/viewtopic.php?f=12&t=1792](http:/
 
 Installation
 -----
+Requires Node v8 or above.
 
-```javascript
+```bash
 npm install samsung-remote --save
 ```
 
@@ -16,12 +18,12 @@ Usage
 -----
 
 ```javascript
-var SamsungRemote = require('samsung-remote');
-var remote = new SamsungRemote({
+const SamsungRemote = require('samsung-remote');
+const remote = new SamsungRemote({
     ip: '192.168.1.13' // required: IP address of your Samsung Smart TV
 });
 
-remote.send('KEY_VOLUP', function callback(err) {
+remote.send('KEY_VOLUP', (err) => {
     if (err) {
         throw new Error(err);
     } else {
@@ -30,7 +32,7 @@ remote.send('KEY_VOLUP', function callback(err) {
 });
 
 // check if TV is alive (ping)
-remote.isAlive(function(err) {
+remote.isAlive((err) => {
     if (err) {
         throw new Error('TV is offline');
     } else {
@@ -42,7 +44,7 @@ remote.isAlive(function(err) {
 
 Remote Keys
 -----
-```javascript
+```
 KEY_MENU
 KEY_UP
 KEY_DOWN
