@@ -56,6 +56,7 @@ test("extends config with custom remote name", () => {
         tvAppString: "iphone.UN60D6000.iapp.samsung",
         port: 55000,
         timeout: 5000,
+        showDisconnectedLog: false,
         ip: "127.0.0.1",
         host: {
             ip: "127.0.0.1",
