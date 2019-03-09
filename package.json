@@ -16,7 +16,7 @@
   },
   "scripts": {
     "lint": "eslint ./ --quiet",
-    "jest": "jest",
+    "jest": "jest --forceExit --detectOpenHandles",
     "test": "npm run lint && npm run jest"
   },
   "keywords": [
