@@ -1,5 +1,6 @@
 NodeJS remote for Samsung SmartTV
 =======
+[![Build Status](https://travis-ci.com/natalan/samsung-remote.svg?branch=master)](https://travis-ci.com/natalan/samsung-remote) [![Greenkeeper badge](https://badges.greenkeeper.io/natalan/samsung-remote.svg)](https://greenkeeper.io/)
 
 Module for integration of Samsung SmartTV with your NodeJS application. Tested with Samsung D6000 TV.
 
@@ -7,8 +8,9 @@ Inspired by this topic [http://forum.samygo.tv/viewtopic.php?f=12&t=1792](http:/
 
 Installation
 -----
+Requires Node v8 or above.
 
-```javascript
+```bash
 npm install samsung-remote --save
 ```
 
@@ -21,7 +23,7 @@ var remote = new SamsungRemote({
     ip: '192.168.1.13' // required: IP address of your Samsung Smart TV or '0.0.0.0' for auto discovery
 });
 
-remote.send('KEY_VOLUP', function callback(err) {
+remote.send('KEY_VOLUP', (err) => {
     if (err) {
         throw new Error(err);
     } else {
@@ -30,7 +32,7 @@ remote.send('KEY_VOLUP', function callback(err) {
 });
 
 // check if TV is alive (ping)
-remote.isAlive(function(err) {
+remote.isAlive((err) => {
     if (err) {
         throw new Error('TV is offline');
     } else {
@@ -40,9 +42,14 @@ remote.isAlive(function(err) {
 
 ```
 
+FAQ
+-----
+Q: How do I find the ip address of my samsung tv?
+A: Open your TV menu and navigate to network. There you can setup a static ip for your TV
+
 Remote Keys
 -----
-```javascript
+```
 KEY_MENU
 KEY_UP
 KEY_DOWN
@@ -288,10 +295,5 @@ KEY_EXT41
 
 License
 -----
-Copyright (c) 2014 Andrei Zharov
+MIT
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
