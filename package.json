@@ -25,7 +25,7 @@
     "remote"
   ],
   "dependencies": {
-    "node-upnp-ssdp": "^0.1.1"
+    "node-upnp-ssdp": "^0.1.1",
     "is-ip": "2.0.0",
     "ping": "0.2.2"
   },
