@@ -16,7 +16,7 @@
   },
   "scripts": {
     "lint": "eslint ./ --quiet",
-    "jest": "jest",
+    "jest": "jest --forceExit --detectOpenHandles",
     "test": "npm run lint && npm run jest"
   },
   "keywords": [
@@ -25,6 +25,7 @@
     "remote"
   ],
   "dependencies": {
+    "node-upnp-ssdp": "^0.1.1",
     "is-ip": "2.0.0",
     "ping": "0.2.2"
   },
@@ -58,12 +59,10 @@
     }
   ],
   "devDependencies": {
-    "eslint": "5.14.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-react": "7.12.0",
-    "jest": "23.6.0",
-    "jest-cli": "23.6.0"
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "24.3.1",
+    "jest-cli": "24.3.1"
   }
 }

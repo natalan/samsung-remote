@@ -18,9 +18,9 @@ Usage
 -----
 
 ```javascript
-const SamsungRemote = require('samsung-remote');
-const remote = new SamsungRemote({
-    ip: '192.168.1.13' // required: IP address of your Samsung Smart TV
+var SamsungRemote = require('samsung-remote');
+var remote = new SamsungRemote({
+    ip: '192.168.1.13' // required: IP address of your Samsung Smart TV or '0.0.0.0' for auto discovery
 });
 
 remote.send('KEY_VOLUP', (err) => {
