@@ -25,7 +25,7 @@
     "remote"
   ],
   "dependencies": {
-    "is-ip": "2.0.0",
+    "is-ip": "3.0.0",
     "ping": "0.2.2"
   },
   "repository": {
