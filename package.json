@@ -1,6 +1,6 @@
 {
   "name": "samsung-remote",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Remote client for Samsung SmartTV",
   "main": "index.js",
   "author": {
@@ -53,12 +53,12 @@
     }
   ],
   "devDependencies": {
-    "eslint": "6.7.1",
-    "eslint-config-airbnb-base": "14.0.0",
-    "eslint-plugin-import": "2.20.1",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.18.1",
-    "jest": "24.9.0",
-    "jest-cli": "24.9.0"
+    "eslint-plugin-react": "7.19.0",
+    "jest": "25.2.4",
+    "jest-cli": "25.2.4"
   }
 }
