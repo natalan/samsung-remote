@@ -1,6 +1,6 @@
 {
   "name": "samsung-remote",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "Remote client for Samsung SmartTV",
   "main": "index.js",
   "author": {
@@ -9,7 +9,7 @@
     "url": "http://www.o2v.net/"
   },
   "engines": {
-    "node": ">=8.3.0"
+    "node": ">=10.0.0"
   },
   "jest": {
     "verbose": true
