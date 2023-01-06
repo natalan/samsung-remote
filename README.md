@@ -1,6 +1,6 @@
 NodeJS remote for Samsung SmartTV
 =======
-[![Build Status](https://travis-ci.com/natalan/samsung-remote.svg?branch=master)](https://travis-ci.com/natalan/samsung-remote) [![Greenkeeper badge](https://badges.greenkeeper.io/natalan/samsung-remote.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/natalan/samsung-remote.svg?branch=master)]
 
 Module for integration of Samsung SmartTV with your NodeJS application. Tested with Samsung D6000 TV.
 
