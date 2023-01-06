@@ -1,8 +1,9 @@
 language: node_js
 node_js:
   - "node"
-  - "12"
-  - "11"
-  - "10"
+  - "16"
+  - "17"
+  - "18"
+  - "19"
 script:
   - npm test

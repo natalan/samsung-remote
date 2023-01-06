@@ -8,7 +8,9 @@ Inspired by this topic [http://forum.samygo.tv/viewtopic.php?f=12&t=1792](http:/
 
 Installation
 -----
-Requires Node v8 or above.
+v2.x Requires Node v16 or above. 
+
+v1.6.1 is the most recent version that supports Node 15 and below. 
 
 ```bash
 npm install samsung-remote --save
@@ -18,7 +20,8 @@ Usage
 -----
 
 ```javascript
-const SamsungRemote = require('samsung-remote');
+import SamsungRemote from 'samsung-remote';
+
 const remote = new SamsungRemote({
     ip: '192.168.1.13' // required: IP address of your Samsung Smart TV
 });
