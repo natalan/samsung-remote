@@ -1,4 +1,4 @@
-const SamsungRemote = require("../index");
+import SamsungRemote from "../index";
 
 function string2Bin(str) {
     const result = [];
