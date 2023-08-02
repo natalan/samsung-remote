@@ -1,8 +1,9 @@
 {
   "name": "samsung-remote",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Remote client for Samsung SmartTV",
   "main": "index.js",
+  "type": "module",
   "author": {
     "name": "Andrei Zharov",
     "email": "belmass@gmail.com",
