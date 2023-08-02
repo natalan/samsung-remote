@@ -1,5 +1,5 @@
 /** @returns {Promise<import('jest').Config>} */
-module.exports = async() => ({
+export default async() => ({
     verbose: true,
     transform: {
         "^.+\\.(t|j)sx?$": ["@swc/jest"]
